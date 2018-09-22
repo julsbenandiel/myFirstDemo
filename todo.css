@@ -1,0 +1,65 @@
+
+ul {
+    padding: 0;
+}
+
+.header {
+    background: dodgerblue;
+}
+
+.fa-plus {
+    float: right;
+    margin: 12px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: 0.3s;
+    color: white;
+}
+
+.remove {
+    text-align: center;
+    color: white;
+    width: 35px;
+    height: 35px;
+    background: red;
+    display: inline-block;
+    margin-right: 12px;
+    transition: 300ms;
+}
+
+.remove:hover {
+    display: block !important;
+}
+
+.fa-trash-alt {
+    margin-left: 10px;
+}
+
+.fa-plus:hover {
+    color: coral;
+}
+
+.form-control {
+    width: 100%;
+    border-radius: 0;
+    padding: 0;
+}
+
+li { background: white; }
+li:nth-child(odd) { background: #f7f7f7; }
+
+ul li {
+    list-style: none;
+    cursor: pointer;
+    line-height: 35px;
+}
+
+.container {
+    width: 350px;
+    margin-top: calc(100%/15);
+}
+
+.clicked {
+    color: gray;
+    text-decoration: line-through;
+}
